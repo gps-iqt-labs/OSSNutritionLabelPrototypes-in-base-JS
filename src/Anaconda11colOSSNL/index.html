@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Anaconda (Python 3.9) Nutrition Label</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/lineupjs@4.0.0/build/LineUpJS.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script id="data" type="text/csv">Package_Name,License,Snyk_Health_Score,Contributors,Maintainers,Dependencies,Versions,FundingStatus,DaysSinceLastUpdate
+    affine,BSD-2,58,10,1,0,13,Unfunded,805
+    agate,MIT,86,50,2,10,26,Unfunded,125
+    agate-dbf,MIT,53,4,2,12,4,Unfunded,498
+    agate-excel,MIT,67,7,2,15,7,Unfunded,101
+    aiobotocore,Apache-2.0,97,40,4,15,59,Funded,43
+    aiofiles,Apache-2.0,87,20,1,0,8,Unfunded,185
+    aiohttp,Apache-2.0,96,430,3,7,214,Funded,256
+    alabaster,BSD-2,76,30,1,0,24,Unfunded,1142
+    alembic,MIT,75,0,2,8,97,Unfunded,42
+    anaconda-client,Unknown,39,0,1,10,2,Unfunded,2128
+    ansi2html,LGPL-3.0,74,30,3,0,48,Unfunded,365
+    ant,MIT,45,2,1,3,1,Unfunded,3694
+    anyio,MIT,94,30,4,3,37,Unfunded,38
+    anyqt,GPL-3.0,61,5,1,0,11,Unfunded,195
+    appdirs,MIT,79,30,1,0,8,Unfunded,555
+    apptools,BSD-2,65,30,4,9,7,Unfunded,308
+    argcomplete,Apache-2.0,86,50,1,3,100,Funded,212
+    argh,LGPL-3.0,61,20,1,0,44,Unfunded,2016
+    argon2-cffi,MIT,91,20,1,2,14,Funded,80
+    arrow,Apache-2.0,94,220,3,3,60,Funded,47
+    asn1crypto,MIT,78,30,1,0,31,Funded,477
+    astroid,LGPL-2.1,91,130,7,5,88,Funded,41
+    astropy,BSD-3,93,390,5,0,110,Funded,98
+    async-timeout,Apache-2.0,83,20,2,0,14,Unfunded,1135
+    async_generator,Apache-2.0,76,5,1,0,12,Funded,1205
+    asyncpg,Apache-2.0,88,50,4,1,36,Unfunded,99
+    asyncpgsa,Apache-2.0,68,30,2,6,56,Unfunded,265
+    atomicwrites,MIT,76,20,1,0,17,Unfunded,568
+    attrs,MIT,96,110,1,0,22,Funded,194
+    automat,MIT,67,30,2,2,9,Unfunded,640
+    autopep8,MIT,88,40,2,2,67,Unfunded,201
+    autovizwidget,BSD-3,84,50,4,67,46,Unfunded,82
+    babel,BSD-2,96,110,5,1,24,Unfunded,203
+    backcall,BSD-3,68,2,1,0,2,Unfunded,526
+    backports,Unknown,9,0,1,0,,Unfunded,
+    backports.os,Python-2.0,46,1,1,0,3,Unfunded,1519
+    backports.shutil_get_terminal_size,MIT,52,3,1,0,1,Unfunded,2647
+    backports.weakref,Python-2.0,68,1,1,0,2,Unfunded,1522
+    bandersnatch,AFL-3.0,77,70,7,0,48,Unfunded,203
+    bcrypt,Apache-2.0,84,30,4,3,16,Unfunded,458
+    beautifulsoup4,MIT,81,2,1,1,34,Funded,71
+    biopython,BSD-3,87,290,5,1,56,Unfunded,167
+    bitarray,Python-2.0,83,20,1,0,70,Unfunded,66
+    bkcharts,BSD-3,46,4,1,2,2,Unfunded,1619
+    black,MIT,100,270,6,10,32,Unfunded,65
+    bleach,Apache-2.0,97,70,2,4,50,Unfunded,84
+    blist,BSD-2,55,8,1,0,30,Unfunded,2806
+    blosc,BSD-3,84,40,3,0,44,Unfunded,41
+    bokeh,BSD-3,97,400,2,9,108,Funded,35
+    boost,GPL-3.0,60,80,1,17,1,Unfunded,1656
+    boto,MIT,83,340,2,0,121,Unfunded,1225
+    boto3,Apache-2.0,97,110,1,6,924,Unfunded,35
+    botocore,Apache-2.0,97,140,2,4,1320,Unfunded,35
+    bottlechest,BSD-2,42,9,2,0,2,Unfunded,2609
+    bottleneck,BSD-2,67,20,2,1,21,Unfunded,635
+    brotli,MIT,77,80,3,0,8,Unfunded,447
+    brotlipy,MIT,65,20,2,2,14,Unfunded,1632
+    bsdiff4,BSD-2,59,3,1,0,14,Unfunded,220
+    btrees,ZPL-2.1,74,20,9,5,31,Unfunded,161
+    bz2file,Apache-2.0,52,1,1,0,3,Unfunded,2859
+    cachecontrol,Apache-2.0,75,60,1,6,36,Unfunded,696
+    cached-property,BSD-3,82,20,1,0,17,Funded,422
+    capturer,MIT,46,1,1,1,9,Unfunded,621
+    cartopy,LGPL-3.0,88,90,9,0,18,Unfunded,40
+    certifi,MPL-2.0,88,30,2,0,45,Unfunded,40
+    cffi,MIT,97,110,8,1,69,Unfunded,35
+    chainer,MIT,82,250,8,6,110,Unfunded,160
+    chameleon,BSD-2,74,60,5,0,118,Unfunded,187
+    chardet,LGPL-2.1,88,50,5,0,12,Unfunded,342
+    chest,BSD-2,48,3,2,1,5,Unfunded,2326
+    click,BSD-3,100,280,3,3,44,Funded,38
+    click-plugins,BSD-3,67,5,1,4,7,Unfunded,958
+    cligj,BSD-3,70,5,3,4,10,Unfunded,173
+    cloudpickle,BSD-3,91,50,9,0,34,Unfunded,68
+    clyent,BSD-2,46,2,1,0,12,Unfunded,2106
+    cmake,Apache-2.0,88,20,4,0,54,Unfunded,52
+    colander,BSD-2,71,90,5,3,47,Unfunded,354
+    colorama,BSD-3,84,40,21,0,42,Funded,401
+    colorcet,CC-BY,71,10,3,2,8,Unfunded,302
+    conda,BSD-2,75,330,3,8,19,Unfunded,1670
+    conda-build,BSD-3,60,190,3,10,4,Unfunded,1730
+    conda-env,BSD-2,51,30,2,0,2,Unfunded,2258
+    configargparse,MIT,85,40,1,0,26,Unfunded,46
+    configobj,BSD-2,67,20,4,1,16,Unfunded,2641
+    constantly,MIT,55,7,3,0,2,Unfunded,2290
+    constructor,MIT,42,1,1,12,3,Unfunded,2381
+    contextlib2,Python-2.0,85,9,3,0,14,Funded,143
+    cornice,MPL-2.0,75,100,9,11,57,Unfunded,49
+    coverage,Apache-2.0,91,100,1,0,88,Funded,37
+    cryptography,Apache-2.0,97,220,3,0,94,Unfunded,49
+    cssselect,BSD-2,74,30,3,0,17,Unfunded,831
+    csvkit,MIT,85,90,2,25,34,Unfunded,127
+    cubes,MIT,54,40,1,10,17,Unfunded,1962
+    curl,MIT,46,1,1,0,1,Unfunded,659
+    cvxcanon,Apache-2.0,50,9,2,2,28,Unfunded,425
+    cycler,BSD-3,81,20,4,1,2,Unfunded,2101
+    cython,Apache-2.0,96,370,3,0,107,Funded,127
+    cytoolz,BSD-2,63,20,1,1,16,Unfunded,420
+    dask,BSD-3,93,430,5,8,128,Funded,57
+    dask-glm,BSD-2,57,20,1,16,2,Funded,1121
+    dask-ml,BSD-3,81,60,2,35,28,Funded,198
+    datashader,BSD-3,78,40,3,24,20,Unfunded,161
+    datashape,BSD-2,58,30,6,4,12,Unfunded,2032
+    datrie,LGPL-2.1,57,20,3,0,15,Unfunded,602
+    db,MIT,49,2,1,1,15,Unfunded,2531
+    dbf,BSD-2,56,6,1,1,66,Unfunded,259
+    decorator,BSD-2,88,30,1,0,33,Unfunded,67
+    defusedxml,Python-2.0,81,5,1,0,11,Unfunded,254
+    diff-match-patch,Apache-2.0,62,2,2,0,6,Unfunded,492
+    dill,BSD-3,87,30,1,0,22,Funded,157
+    distlib,CNRI-Python,72,0,1,0,25,Unfunded,56
+    distributed,BSD-2,91,240,4,23,157,Funded,57
+    django,BSD-3,93,400,5,4,274,Funded,43
+    dnspython,ISC,85,90,1,0,12,Unfunded,314
+    docopt,MIT,77,30,1,0,11,Unfunded,2711
+    docutils,BSD-2,74,0,3,0,30,Unfunded,214
+    dropbox,MIT,91,30,1,8,119,Unfunded,49
+    ecdsa,MIT,90,40,2,1,18,Unfunded,174
+    ecos,GPL-3.0,67,30,3,2,16,Unfunded,1096
+    elasticsearch,Apache-2.0,97,170,2,2,81,Unfunded,56
+    elasticsearch-async,Apache-2.0,57,20,2,11,8,Unfunded,1196
+    elasticsearch-dsl,Apache-2.0,89,110,2,5,30,Unfunded,125
+    enaml,BSD-2,78,30,3,4,19,Funded,212
+    entrypoints,MIT,70,8,1,0,6,Unfunded,1045
+    envisage,BSD-2,75,40,4,11,15,Unfunded,153
+    ephem,MIT,85,30,1,0,11,Unfunded,49
+    et_xmlfile,MIT,90,80,1,0,3,Unfunded,205
+    fastcache,MIT,48,5,1,0,13,Unfunded,933
+    fastparquet,Apache-2.0,88,70,2,6,33,Funded,106
+    feedparser,BSD-2,80,40,1,1,21,Unfunded,148
+    filelock,Unlicense,88,20,2,0,32,Unfunded,46
+    flake8,MIT,97,140,4,6,81,Unfunded,37
+    flask,BSD-3,100,410,2,8,41,Funded,44
+    flask-cors,MIT,84,40,2,10,42,Unfunded,316
+    flask-login,MIT,80,90,1,9,21,Unfunded,647
+    flask-socketio,MIT,83,69,1,12,79,Funded,108
+    flask-wtf,BSD-3,83,80,6,10,43,Unfunded,176
+    fontconfig,MIT,39,0,1,0,1,Unfunded,1980
+    freetype,BSD-2,39,0,1,0,1,Unfunded,5760
+    fsspec,BSD-3,91,110,2,0,50,Unfunded,47
+    fuel,MIT,54,40,1,18,2,Unfunded,1870
+    furl,Unlicense,82,20,1,2,50,Unfunded,51
+    future,MIT,85,90,4,0,50,Unfunded,749
+    gensim,LGPL-2.1,97,370,2,3,86,Funded,62
+    geos,BSD-3,60,7,1,11,6,Unfunded,269
+    gevent,MIT,94,90,2,5,75,Unfunded,104
+    gevent-websocket,Apache-2.0,52,5,1,6,20,Unfunded,1711
+    gitpython,BSD-3,97,220,5,3,77,Funded,61
+    glib,MIT,54,0,1,0,1,Unfunded,163
+    glob2,BSD-2,52,9,1,0,7,Unfunded,891
+    glue-core,BSD-2,69,1,1,49,33,Unfunded,62
+    glue-vispy-viewers,BSD-2,70,7,1,54,22,Unfunded,113
+    glueviz,BSD-2,81,50,2,55,40,Unfunded,95
+    gmpy2,LGPL-3.0,60,30,1,0,17,Unfunded,1970
+    graphviz,MIT,87,20,1,0,48,Unfunded,126
+    greenlet,MIT,91,50,9,0,29,Unfunded,49
+    gsl,AGPL-3.0,42,1,1,0,3,Unfunded,1267
+    gunicorn,MIT,93,300,2,1,80,Unfunded,236
+    h2o,Apache-2.0,90,150,2,7,87,Unfunded,41
+    h5py,BSD-3,97,160,5,2,23,Unfunded,86
+    hdijupyterutils,BSD-3,84,50,4,64,45,Unfunded,82
+    heapdict,BSD-2,55,5,1,0,7,Unfunded,800
+    holoviews,BSD-3,88,110,2,28,72,Unfunded,61
+    html5lib,MIT,87,60,2,2,27,Unfunded,513
+    humanize,MIT,91,60,2,4,32,Unfunded,42
+    hvplot,BSD-3,81,40,2,29,36,Unfunded,117
+    hyperlink,MIT,75,30,4,1,11,Unfunded,313
+    hypothesis,MPL-2.0,97,220,2,2,881,Unfunded,40
+    icu,GPL-3.0,47,3,2,0,1,Unfunded,422
+    idna,BSD-3,85,20,1,0,25,Unfunded,36
+    imagecodecs,BSD-3,70,1,1,1,41,Unfunded,83
+    imageio,BSD-2,81,70,1,2,31,Funded,499
+    imagesize,MIT,67,10,1,0,7,Unfunded,692
+    importlib-metadata,Apache-2.0,88,40,3,2,77,Funded,80
+    importlib_metadata,Apache-2.0,88,40,3,2,77,Funded,80
+    incremental,MIT,73,10,4,0,11,Unfunded,261
+    iniconfig,MIT,78,20,2,0,6,Unfunded,399
+    intel-openmp,MIT,88,90,2,0,9,Unfunded,50
+    intervaltree,Apache-2.0,63,20,1,1,15,Unfunded,471
+    ipykernel,BSD-2,94,420,9,28,68,Unfunded,68
+    ipyparallel,BSD-2,90,420,9,31,31,Unfunded,48
+    ipython,BSD-2,94,420,6,13,108,Unfunded,54
+    ipython_genutils,BSD-2,87,420,5,0,2,Unfunded,1710
+    ipywidgets,BSD-2,94,420,11,55,127,Unfunded,65
+    iso8601,MIT,75,20,1,0,19,Unfunded,124
+    isort,MIT,91,230,1,0,130,Funded,111
+    itsdangerous,BSD-3,96,40,2,0,23,Funded,183
+    jasper,MIT,42,1,1,4,1,Unfunded,1720
+    jdcal,BSD-2,70,9,1,0,5,Unfunded,938
+    jedi,MIT,91,130,1,1,30,Funded,327
+    jeepney,MIT,91,80,1,0,12,Unfunded,112
+    jinja2,BSD-3,100,260,2,1,44,Funded,44
+    joblib,BSD-3,88,100,4,0,94,Unfunded,41
+    jpeg,Python-2.0,39,0,1,0,0,Unfunded,
+    json5,Apache-2.0,76,8,1,0,28,Unfunded,149
+    jsonschema,MIT,88,80,1,5,45,Funded,39
+    jupyter,BSD-2,93,230,6,59,1,Unfunded,2290
+    jupyter-packaging,BSD-3,87,210,6,6,33,Unfunded,51
+    jupyter_client,BSD-2,91,100,12,8,48,Unfunded,43
+    jupyter_console,BSD-2,99,230,8,29,15,Unfunded,239
+    jupyter_core,BSD-3,100,230,14,1,27,Unfunded,62
+    jupyter_server,BSD-2,93,390,8,47,68,Unfunded,44
+    jupyterlab,BSD-2,97,370,16,68,395,Unfunded,41
+    jupyterlab_launcher,BSD-2,75,230,8,53,44,Unfunded,1194
+    jupyterlab_pygments,BSD-2,93,230,5,1,3,Unfunded,414
+    jupyterlab_server,BSD-3,90,30,6,51,73,Unfunded,53
+    jupyterlab_widgets,BSD-3,97,170,6,0,37,Unfunded,65
+    keras,Apache-2.0,94,430,2,0,56,Unfunded,100
+    keyring,MIT,88,80,1,6,166,Funded,66
+    kiwisolver,BSD-2,91,20,2,0,11,Funded,82
+    knit,BSD-2,45,9,3,6,6,Funded,1461
+    krb5,MIT,72,1,2,0,3,Unfunded,43
+    lazy-object-proxy,BSD-2,82,20,1,0,18,Funded,240
+    ldap3,LGPL-3.0,85,90,1,1,31,Unfunded,122
+    lerc,Apache-2.0,57,20,1,0,1,Unfunded,622
+    libarchive,MIT,51,7,1,0,11,Unfunded,871
+    libssh2,Unknown,9,0,1,0,0,Unfunded,
+    libtiff,BSD-3,57,20,1,0,3,Unfunded,1427
+    libtool,MIT,47,1,1,32,6,Unfunded,321
+    libuuid,BSD-2,42,2,1,1,1,Unfunded,1093
+    llvmlite,BSD-2,91,70,3,0,49,Unfunded,89
+    locket,BSD-2,69,4,1,0,4,Funded,302
+    lockfile,MIT,68,0,5,0,5,Unfunded,2184
+    luigi,Apache-2.0,89,360,14,8,72,Unfunded,216
+    lxml,BSD-3,93,120,3,0,144,Funded,241
+    lz4,BSD-2,74,40,2,0,71,Unfunded,302
+    m4,MIT,57,1,1,23,1,Unfunded,136
+    mako,MIT,88,50,2,1,60,Unfunded,89
+    markdown,BSD-2,99,130,2,3,40,Unfunded,266
+    markdown2,MIT,88,60,2,0,42,Unfunded,92
+    markupsafe,BSD-3,92,40,2,0,25,Funded,183
+    matplotlib,Python-2.0,94,430,5,7,71,Funded,97
+    mccabe,MIT,76,20,2,0,11,Unfunded,1756
+    mdp,BSD-2,55,20,4,2,3,Unfunded,572
+    meld3,BSD-2,49,7,2,0,10,Unfunded,588
+    memory_profiler,BSD-2,74,80,1,1,55,Unfunded,394
+    mistune,BSD-3,81,30,1,0,26,Unfunded,1133
+    mkl,MIT,84,90,2,2,7,Unfunded,50
+    mkl-devel,MIT,78,90,2,4,6,Unfunded,50
+    mkl-include,MIT,81,90,2,0,7,Unfunded,50
+    mkl-service,BSD-3,68,3,2,0,2,Unfunded,174
+    mkl_fft,BSD-3,65,6,2,0,5,Unfunded,262
+    mkl_random,BSD-3,67,6,2,0,6,Unfunded,174
+    mock,BSD-2,84,70,6,0,34,Unfunded,342
+    more-itertools,MIT,91,80,2,0,36,Unfunded,61
+    morfessor,BSD-2,49,0,2,0,12,Unfunded,840
+    mpc,MIT,45,5,1,1,4,Unfunded,798
+    mpld3,BSD-3,82,50,5,10,8,Unfunded,148
+    mpmath,BSD-3,57,40,1,0,22,Unfunded,281
+    msgpack-python,Apache-2.0,58,20,1,0,31,Unfunded,1348
+    multidict,Apache-2.0,91,40,3,0,124,Funded,45
+    multipledispatch,BSD-2,68,20,4,1,15,Unfunded,1197
+    munch,MIT,67,20,2,1,13,Unfunded,749
+    mypy,MIT,96,420,5,4,83,Funded,148
+    mypy_extensions,MIT,79,20,4,0,7,Funded,762
+    mysql,MIT,67,1,2,1,3,Unfunded,176
+    natsort,MIT,83,20,1,0,49,Unfunded,296
+    nbclassic,BSD-3,85,20,7,63,25,Unfunded,61
+    nbclient,BSD-2,91,30,4,17,15,Unfunded,93
+    nbconvert,BSD-2,97,210,14,30,41,Unfunded,54
+    nbformat,BSD-2,99,230,13,9,19,Unfunded,229
+    neon,Python-2.0,39,0,1,0,4,Unfunded,3630
+    nest-asyncio,BSD-2,78,9,1,0,27,Funded,294
+    netcdf4,MIT,88,60,2,2,44,Unfunded,149
+    networkx,BSD-2,96,430,3,0,52,Funded,69
+    nginx,MIT,41,0,1,0,1,Unfunded,464
+    nltk,Apache-2.0,97,330,4,7,45,Unfunded,38
+    nodejs,MIT,46,1,1,1,2,Unfunded,2432
+    nose,LGPL-2.1,79,70,3,0,13,Unfunded,2360
+    nose-parameterized,BSD-2,61,30,1,0,13,Unfunded,1702
+    notebook,BSD-2,100,230,14,52,76,Unfunded,63
+    numba,BSD-2,91,240,4,3,91,Unfunded,40
+    numexpr,MIT,78,50,4,1,40,Unfunded,259
+    numpy,BSD-3,94,440,6,0,92,Funded,94
+    numpydoc,BSD-2,68,70,4,24,13,Funded,504
+    olefile,BSD-2,58,20,1,0,9,Unfunded,1164
+    openpyxl,MIT,97,110,2,1,87,Unfunded,56
+    opentracing,Apache-2.0,78,30,3,0,23,Unfunded,363
+    opentracing_instrumentation,MIT,59,20,3,6,38,Unfunded,512
+    packaging,BSD-2,94,70,4,1,36,Unfunded,137
+    pandas,BSD-3,96,410,8,0,80,Funded,66
+    pandas-datareader,BSD-2,80,80,2,7,80,Unfunded,127
+    pandas-profiling,MIT,94,70,2,31,29,Funded,51
+    pandoc,MIT,67,1,1,2,23,Unfunded,142
+    pandocfilters,BSD-3,87,40,2,0,15,Unfunded,65
+    panel,BSD-3,85,80,2,25,128,Unfunded,51
+    param,BSD-3,78,30,2,0,53,Unfunded,136
+    paramiko,LGPL-2.1,84,120,1,6,122,Funded,39
+    parsedatetime,Apache-2.0,72,40,2,0,17,Unfunded,535
+    parsel,BSD-2,72,50,3,4,19,Unfunded,559
+    parso,MIT,86,50,1,0,25,Unfunded,232
+    partd,BSD-2,82,20,4,2,18,Funded,223
+    passlib,BSD-2,51,0,1,0,17,Unfunded,405
+    path,MIT,77,40,1,0,14,Funded,114
+    path.py,MIT,64,40,5,0,70,Funded,478
+    pathlib,MIT,76,110,1,0,11,Unfunded,2632
+    pathlib2,MIT,94,20,2,1,11,Funded,135
+    pathspec,MPL-2.0,85,20,1,0,22,Unfunded,123
+    pathtools,MIT,52,5,1,0,3,Unfunded,3737
+    patsy,BSD-2,94,20,3,2,9,Unfunded,52
+    pep8,MIT,76,110,5,0,37,Unfunded,1485
+    perl,BSD-2,45,1,2,1,2,Unfunded,800
+    petl,MIT,74,40,1,0,79,Unfunded,236
+    pexpect,ISC,82,80,5,1,17,Unfunded,666
+    pickleshare,MIT,76,20,4,0,12,Unfunded,1149
+    pillow,HPND,97,320,4,0,83,Funded,76
+    pip,MIT,97,410,6,0,112,Funded,37
+    pivottablejs,MIT,51,3,1,0,10,Unfunded,1402
+    pkginfo,MIT,72,0,1,0,32,Unfunded,131
+    plac,BSD-2,73,10,2,0,31,Unfunded,239
+    plotly,MIT,97,170,6,2,271,Funded,78
+    pluggy,MIT,91,40,6,3,18,Unfunded,84
+    ply,BSD-2,79,40,1,0,6,Unfunded,1371
+    pomegranate,Apache-2.0,87,300,1,5,53,Unfunded,197
+    portend,MIT,70,20,1,4,28,Unfunded,41
+    portpicker,Apache-2.0,80,10,3,0,9,Unfunded,177
+    posix_ipc,BSD-2,53,3,1,0,7,Unfunded,403
+    progress,ISC,76,20,1,0,9,Unfunded,112
+    prometheus_client,Apache-2.0,99,110,2,0,38,Unfunded,169
+    prompt-toolkit,BSD-3,88,180,1,1,104,Unfunded,89
+    prompt_toolkit,BSD-3,88,180,1,1,104,Unfunded,89
+    protobuf,BSD-3,93,390,7,0,88,Unfunded,43
+    psutil,BSD-3,94,150,2,0,82,Funded,334
+    psycopg2,LGPL-3.0,91,100,3,0,47,Funded,154
+    ptyprocess,ISC,82,20,3,0,10,Unfunded,324
+    py,MIT,82,60,7,0,61,Unfunded,340
+    py4j,BSD-2,88,30,1,0,27,Unfunded,263
+    pyasn1,BSD-2,79,20,2,0,34,Funded,732
+    pyasn1-modules,BSD-2,73,6,2,1,23,Funded,678
+    pycodestyle,MIT,97,110,3,0,13,Unfunded,38
+    pycosat,MIT,51,8,2,0,2,Unfunded,1469
+    pycparser,BSD-2,81,70,1,0,20,Unfunded,623
+    pycrypto,Public-Domain,58,30,2,0,9,Unfunded,2707
+    pycurl,LGPL-3.0 & MIT,91,221,3,0,21,Unfunded,94
+    pydocstyle,MIT,85,70,2,1,17,Unfunded,184
+    pydot,MIT,79,30,3,1,11,Unfunded,275
+    pydotplus,MIT,55,6,1,1,3,Unfunded,2536
+    pyemd,MIT,60,10,1,1,15,Unfunded,1389
+    pyerfa,BSD-3,68,30,1,1,6,Unfunded,184
+    pyflakes,MIT,91,70,3,0,31,Unfunded,42
+    pygments,BSD-2,94,390,3,0,50,Unfunded,94
+    pyjwt,MIT,91,100,1,0,42,Funded,42
+    pykerberos,Apache-2.0,49,0,3,0,16,Unfunded,1428
+    pylint,GPL-2.0,97,360,7,10,119,Funded,62
+    pyls-black,MIT,65,7,1,18,12,Unfunded,166
+    pyls-spyder,MIT,65,4,2,10,8,Unfunded,202
+    pymc3,Apache-2.0,93,290,5,24,34,Funded,86
+    pymongo,Apache-2.0,94,160,1,0,118,Unfunded,127
+    pympler,Apache-2.0,69,20,2,0,15,Unfunded,399
+    pymysql,MIT,88,100,4,0,35,Unfunded,312
+    pyodbc,MIT,88,40,1,0,50,Unfunded,90
+    pyopengl,BSD-2,46,0,1,0,27,Unfunded,684
+    pyopenssl,Apache-2.0,97,90,4,2,26,Unfunded,50
+    pyparsing,MIT,87,40,1,0,52,Funded,591
+    pyprof2calltree,MIT,54,20,2,0,16,Unfunded,577
+    pyproj,MIT,94,40,2,0,38,Unfunded,61
+    pyqtgraph,MIT,93,180,3,1,16,Unfunded,38
+    pyquery,BSD-2,81,50,2,2,35,Unfunded,361
+    pyrsistent,MIT,88,60,1,0,60,Unfunded,142
+    pysal,BSD-3,78,50,2,101,26,Unfunded,109
+    pyserial,BSD-2,78,60,1,0,15,Unfunded,360
+    pyshp,MIT,74,30,1,0,21,Unfunded,307
+    pysmi,BSD-2,55,9,2,1,17,Funded,948
+    pysnmp,BSD-2,60,30,2,4,36,Funded,785
+    pysocks,BSD-2,76,30,1,0,19,Unfunded,790
+    pyspark,Apache-2.0,88,340,1,1,26,Unfunded,174
+    pystan,ISC,85,7,2,15,59,Funded,43
+    pytest,MIT,100,390,7,10,148,Funded,79
+    pytest-arraydiff,BSD-2,51,7,4,13,3,Funded,1078
+    pytest-astropy,BSD-3,75,7,4,26,10,Funded,57
+    pytest-astropy-header,BSD-3,51,10,4,11,3,Funded,700
+    pytest-asyncio,Apache-2.0,83,30,3,11,19,Unfunded,210
+    pytest-cache,MIT,46,0,1,12,2,Unfunded,3088
+    pytest-cov,MIT,94,70,2,12,43,Unfunded,45
+    pytest-doctestplus,BSD-3,81,40,4,12,16,Funded,58
+    pytest-mock,MIT,90,60,7,11,52,Funded,195
+    pytest-openfiles,BSD-3,54,30,4,12,7,Funded,580
+    pytest-pep8,MIT,72,110,2,14,13,Unfunded,2761
+    pytest-remotedata,BSD-3,60,30,4,12,6,Funded,851
+    pytest-runner,MIT,79,30,1,0,44,Funded,182
+    pytest-timeout,MIT,85,30,7,11,18,Unfunded,37
+    pytest-xdist,MIT,91,70,7,13,57,Unfunded,57
+    python-daemon,Apache-2.0,67,0,1,3,37,Unfunded,269
+    python-dateutil,Apache-2.0 & BSD-2,94,110,4,1,24,Unfunded,126
+    python-editor,Apache-2.0,70,7,1,0,9,Unfunded,1020
+    python-engineio,MIT,82,40,1,0,114,Funded,108
+    python-jsonrpc-server,MIT,53,9,1,1,13,Unfunded,435
+    python-language-server,MIT,71,80,1,8,77,Unfunded,341
+    python-lmdb,MIT,42,1,1,0,1,Unfunded,2983
+    python-memcached,Python-2.0,58,30,1,1,11,Unfunded,1433
+    python-rapidjson,MIT,77,20,2,0,47,Unfunded,145
+    python-snappy,BSD-2,73,20,2,0,13,Unfunded,315
+    python-socketio,MIT,83,50,1,2,80,Funded,108
+    python-utils,BSD-3,63,6,1,1,23,Unfunded,287
+    pytorch,Unknown,40,0,2,0,2,Unfunded,938
+    pytz,MIT,82,20,1,0,102,Funded,47
+    pywavelets,MIT,87,40,6,1,16,Funded,760
+    pywget,BSD-2,50,0,1,0,11,Unfunded,304
+    pyxdg,LGPL-2.0,74,20,2,0,9,Unfunded,395
+    pyyaml,MIT,88,40,3,0,27,Unfunded,35
+    pyzmq,BSD-2 & LGPL-3.0,97,150,2,0,67,Unfunded,62
+    qdarkstyle,MIT,81,30,2,1,42,Unfunded,230
+    qgrid,Apache-2.0,67,20,2,57,68,Unfunded,589
+    qtawesome,MIT,75,30,4,1,37,Funded,148
+    qtconsole,BSD-3,91,100,9,30,34,Unfunded,141
+    qtpy,MIT,91,40,3,0,29,Funded,55
+    quandl,MIT,71,30,6,11,60,Unfunded,259
+    queuelib,BSD-2,82,20,4,0,11,Unfunded,83
+    readline,GPL-2.0,52,1,2,0,10,Unfunded,3313
+    redis,MIT,90,220,2,0,65,Unfunded,534
+    regex,Apache-2.0,72,0,1,0,311,Unfunded,40
+    reportlab,BSD-2,67,0,1,1,61,Unfunded,103
+    requests,Apache-2.0,97,410,3,4,140,Funded,127
+    requests-file,Apache-2.0,70,6,1,6,10,Unfunded,571
+    requests-ftp,Apache-2.0,51,20,1,5,7,Unfunded,2288
+    requests-kerberos,ISC,60,20,6,7,13,Unfunded,1428
+    responses,Apache-2.0,91,90,2,6,40,Funded,68
+    rope,LGPL-3.0,91,60,5,0,21,Unfunded,60
+    routes,MIT,62,40,2,2,32,Unfunded,400
+    rtree,MIT,74,30,2,0,22,Unfunded,328
+    ruamel_yaml,MPL-2.0,88,30,1,0,231,Funded,80
+    runipy,BSD-2,54,90,2,46,14,Unfunded,2221
+    s3fs,BSD-2,91,70,3,17,40,Funded,47
+    sas7bdat,MIT,48,2,1,1,29,Unfunded,856
+    sas_kernel,Apache-2.0,67,5,2,31,5,Unfunded,126
+    saspy,Apache-2.0,81,30,2,0,64,Unfunded,77
+    scikit-bio,BSD-3,61,70,1,0,20,Unfunded,609
+    scikit-image,BSD-3,94,360,9,13,37,Funded,85
+    scikit-learn,BSD-3,94,420,10,4,57,Funded,54
+    scikit-rf,BSD-3,75,60,2,16,23,Funded,104
+    scipy,BSD-3,94,430,7,1,63,Funded,108
+    scons,MIT,88,18,3,1,18,Funded,109
+    seaborn,BSD-3,94,140,1,10,24,Unfunded,94
+    secretstorage,BSD-3,78,5,1,2,19,Unfunded,281
+    semantic_version,BSD-2,70,20,1,0,24,Unfunded,567
+    send2trash,BSD-3,87,20,2,0,14,Unfunded,101
+    service_identity,MIT,77,10,1,5,8,Funded,192
+    setuptools,MIT,97,380,6,0,433,Funded,47
+    setuptools_scm,MIT,94,80,3,4,68,Funded,67
+    sh,MIT,82,70,1,0,35,Funded,187
+    shapely,BSD-2,90,110,3,0,103,Unfunded,454
+    simplegeneric,Apache-2.0,76,300,1,0,5,Unfunded,3517
+    simplejson,MIT,91,30,3,0,96,Unfunded,85
+    singledispatch,MIT,76,8,2,1,10,Unfunded,96
+    sip,SIP,64,0,1,4,28,Unfunded,36
+    six,MIT,86,60,1,0,28,Unfunded,196
+    smart_open,MIT,91,80,2,0,51,Funded,81
+    smmap2,BSD-3,58,20,2,1,8,Unfunded,633
+    snappy,GPL-2.0,65,20,2,24,17,Unfunded,214
+    sniffio,Apache-2.0,82,20,2,0,4,Funded,402
+    snowballstemmer,BSD-3,90,30,2,0,9,Unfunded,300
+    snuggs,MIT,58,5,3,2,13,Unfunded,791
+    sortedcollections,Apache-2.0,66,4,1,1,12,Unfunded,303
+    sortedcontainers,Apache-2.0,84,20,1,0,40,Unfunded,185
+    soupsieve,MIT,81,8,1,0,38,Funded,243
+    spacy,MIT,94,410,3,0,158,Unfunded,58
+    sparkmagic,BSD-3,84,50,5,74,48,Unfunded,90
+    sphinx,BSD-2,94,410,3,23,156,Unfunded,66
+    sphinx_rtd_theme,MIT,97,110,5,24,8,Unfunded,65
+    sphinxcontrib-applehelp,BSD-2,83,410,1,0,3,Unfunded,628
+    sphinxcontrib-devhelp,BSD-2,83,410,1,0,3,Unfunded,628
+    sphinxcontrib-htmlhelp,BSD-2,89,410,1,0,5,Unfunded,179
+    sphinxcontrib-jsmath,BSD-2,83,410,1,0,2,Unfunded,1031
+    sphinxcontrib-qthelp,BSD-2,83,410,1,0,4,Unfunded,628
+    sphinxcontrib-serializinghtml,BSD-2,89,410,1,0,6,Unfunded,179
+    sphinxcontrib-websupport,BSD-2,80,410,3,1,10,Unfunded,465
+    sputnik,MIT,39,0,1,1,25,Unfunded,2075
+    spyder,MIT,93,190,5,121,84,Funded,63
+    spyder-kernels,MIT,79,30,2,30,52,Funded,46
+    sqlalchemy,MIT,100,410,3,4,232,Funded,56
+    sqlalchemy-utils,BSD-2,85,100,2,6,100,Unfunded,142
+    sqlparse,BSD-3,87,70,1,0,30,Unfunded,68
+    statsmodels,BSD-3,93,290,5,5,27,Unfunded,47
+    streamz,BSD-2,84,40,3,6,16,Unfunded,44
+    stripe,MIT,91,110,1,5,252,Unfunded,37
+    suds-jurko,LGPL-3.0,31,0,1,0,7,Unfunded,2854
+    svn,GPL-2.0,54,20,1,3,43,Unfunded,655
+    sympy,BSD-2,91,450,3,1,39,Funded,40
+    tabpy-client,MIT,60,30,1,16,1,Unfunded,1727
+    tabpy-server,MIT,60,30,1,23,2,Unfunded,1727
+    tbb,MIT,88,90,2,0,9,Unfunded,50
+    tblib,BSD-2,70,10,1,0,13,Unfunded,482
+    tempita,MIT,49,0,3,0,8,Unfunded,2893
+    tensorflow,Apache-2.0,94,410,6,0,128,Unfunded,98
+    tensorflow-gpu,Apache-2.0,97,410,6,0,92,Unfunded,98
+    teradata,MIT,55,3,2,0,22,Unfunded,1663
+    termcolor,Apache-2.0,87,300,1,0,7,Unfunded,3961
+    terminado,BSD-2,85,30,4,2,26,Unfunded,71
+    testpath,BSD-3,74,7,1,0,10,Unfunded,184
+    textdistance,MIT,67,9,1,0,20,Unfunded,292
+    threadpoolctl,BSD-3,85,6,3,0,6,Unfunded,47
+    three-merge,MIT,50,1,2,1,2,Unfunded,483
+    thrift,Apache-2.0,100,340,3,1,12,Unfunded,53
+    tifffile,BSD-3,81,1,1,1,88,Unfunded,35
+    tk,Apache-2.0,46,0,1,0,1,Unfunded,863
+    toml,MIT,87,50,1,0,16,Unfunded,382
+    toolz,BSD-2,84,60,3,0,24,Unfunded,419
+    torchvision,BSD-3,92,420,5,4,25,Unfunded,58
+    tornado,Apache-2.0,88,340,2,0,62,Unfunded,383
+    tornado-json,MIT,55,9,1,2,21,Unfunded,945
+    tqdm,MIT,97,110,2,0,122,Funded,58
+    traceback2,Python-2.0,52,4,1,1,7,Unfunded,2445
+    traitlets,BSD-2,91,90,12,0,25,Unfunded,79
+    traits,BSD-2,81,60,4,0,15,Unfunded,36
+    traitsui,BSD-2,75,70,4,6,17,Unfunded,190
+    transaction,ZPL-2.1,69,30,17,2,29,Unfunded,341
+    translationstring,BSD-2,60,20,2,0,9,Unfunded,496
+    twisted,MIT,97,140,7,10,68,Unfunded,112
+    typed-ast,Apache-2.0,89,30,6,0,29,Funded,220
+    typing,Python-2.0,96,70,8,0,15,Funded,200
+    typing_extensions,Python-2.0,97,70,6,0,12,Funded,79
+    tzdata,Apache-2.0,79,2,2,0,14,Funded,47
+    ujson,BSD-2,91,60,4,0,26,Unfunded,56
+    unicodecsv,BSD-2,73,20,1,0,10,Unfunded,2248
+    unidecode,GPL-2.0,88,20,2,0,25,Unfunded,62
+    urllib3,MIT,100,250,3,0,66,Funded,56
+    uvloop,MIT,91,40,4,0,75,Unfunded,99
+    vcversioner,ISC,48,2,1,0,10,Unfunded,2045
+    venusian,BSD-2,61,20,5,0,22,Unfunded,743
+    virtualenv,MIT,97,60,8,9,170,Unfunded,54
+    visvis,BSD-2,56,5,1,2,17,Unfunded,338
+    w3lib,BSD-2,66,40,4,1,28,Unfunded,553
+    waitress,ZPL-2.1,83,50,4,0,45,Unfunded,254
+    watchdog,Apache-2.0,91,120,5,0,35,Unfunded,47
+    wcwidth,MIT,75,8,1,0,17,Unfunded,512
+    webencodings,BSD-2,71,6,2,0,6,Unfunded,1687
+    webob,MIT,82,100,5,0,71,Unfunded,272
+    webtest,MIT,86,70,3,4,55,Unfunded,90
+    werkzeug,BSD-3,100,380,3,0,71,Funded,43
+    wget,Public-Domain,49,0,1,0,16,Unfunded,2218
+    wheel,MIT,91,60,3,0,62,Unfunded,100
+    whoosh,BSD-2,49,0,4,0,141,Unfunded,2054
+    widgetsnbextension,BSD-2,87,420,4,53,104,Unfunded,842
+    word2vec,Apache-2.0,60,20,1,2,40,Unfunded,558
+    wrapt,BSD-2,88,20,1,0,40,Unfunded,43
+    ws4py,BSD-2,65,50,2,0,50,Unfunded,1358
+    wsgiproxy2,MIT,73,10,1,1,12,Unfunded,83
+    wtforms,BSD-3,56,120,2,1,23,Unfunded,475
+    wurlitzer,MIT,78,7,1,0,15,Unfunded,84
+    xarray,Apache-2.0,97,320,4,3,48,Funded,117
+    xlrd,BSD-2,86,40,3,0,24,Unfunded,341
+    xlsxwriter,BSD-2,91,40,1,0,147,Funded,99
+    xlutils,MIT,52,2,1,2,17,Unfunded,1987
+    xlwt,BSD-2,61,20,2,0,11,Unfunded,1548
+    yapf,Apache-2.0,89,120,3,0,64,Unfunded,250
+    yarl,Apache-2.0,94,60,3,3,87,Unfunded,41
+    yt,BSD-3,84,130,6,0,44,Unfunded,119
+    zfp,Unknown,36,0,3,0,1,Unfunded,761
+    zict,BSD-2,67,30,2,1,10,Unfunded,628
+    zipp,MIT,81,20,1,0,33,Unfunded,49
+    zope,ZPL-2.1,81,110,4,76,42,Unfunded,109
+    zope.deprecation,ZPL-2.1,70,30,6,0,14,Unfunded,1080
+    zope.event,ZPL-2.1,74,30,24,0,17,Unfunded,425
+    zope.interface,ZPL-2.1,87,60,30,0,56,Unfunded,216
+    zope.sqlalchemy,ZPL-2.1,79,30,4,0,22,Unfunded,72
+    zstd,BSD-2,68,4,1,0,24,Unfunded,182</script>
+    <script id="dump" type="application/json">{
+     "$schema": "https://lineup.js.org/develop/schema.4.0.0.json",
+     "uid": 11,
+     "selection": [],
+     "aggregations": {},
+     "rankings": [
+      {
+       "columns": [
+        {
+         "id": "col0",
+         "desc": {
+          "type": "aggregate",
+          "label": "Aggregate Groups",
+          "fixed": true,
+          "width": 10
+         },
+         "width": 40
+        },
+        {
+         "id": "col1",
+         "desc": {
+          "type": "rank",
+          "label": "#",
+          "width": 55
+         },
+         "width": 55
+        },
+        {
+         "id": "col2",
+         "desc": "string@Package_Name",
+         "label": "Package Name",         
+         "width": 200,
+         "loaded": true,
+         "filter": null,
+         "groupCriteria": {
+          "type": "startsWith",
+          "values": []
+         }
+        },
+        {
+         "id": "col3",
+         "desc": "string@License",
+         "width": 100,
+         "loaded": true,
+         "filter": null,
+         "groupCriteria": {
+          "type": "startsWith",
+          "values": []
+         }
+        },
+        {
+         "id": "col4",
+         "desc": "number@Snyk_Health_Score",
+         "width": 150,
+         "groupRenderer": "boxplot",
+         "label": "Snyk Health Score",                  
+         "summaryRenderer": "histogram",
+         "loaded": true,
+         "map": {
+          "type": "linear",
+          "domain": [
+           0,
+           100
+          ],
+          "range": [
+           0,
+           1
+          ]
+         },
+         "colorMapping": "#1f77b4",
+         "filter": null,
+         "groupSortMethod": "median",
+         "stratifyThreshholds": []
+        },
+        {
+         "id": "col5",
+         "desc": "number@Contributors",
+         "width": 115,
+         "groupRenderer": "boxplot",
+         "summaryRenderer": "histogram",
+         "loaded": true,
+         "map": {
+          "type": "linear",
+          "domain": [
+           0,
+           450
+          ],
+          "range": [
+           0,
+           1
+          ]
+         },
+         "colorMapping": "#ff7f0e",
+         "filter": null,
+         "groupSortMethod": "median",
+         "stratifyThreshholds": []
+        },
+        {
+         "id": "col6",
+         "desc": "number@Maintainers",
+         "width": 115,
+         "groupRenderer": "boxplot",
+         "summaryRenderer": "histogram",
+         "loaded": true,
+         "map": {
+          "type": "linear",
+          "domain": [
+           1,
+           30
+          ],
+          "range": [
+           0,
+           1
+          ]
+         },
+         "colorMapping": "#2ca02c",
+         "filter": null,
+         "groupSortMethod": "median",
+         "stratifyThreshholds": []
+        },
+        {
+         "id": "col7",
+         "desc": "number@Dependencies",
+         "width": 125,
+         "groupRenderer": "boxplot",
+         "summaryRenderer": "histogram",
+         "loaded": true,
+         "map": {
+          "type": "linear",
+          "domain": [
+           0,
+           121
+          ],
+          "range": [
+           0,
+           1
+          ]
+         },
+         "colorMapping": "#d62728",
+         "filter": null,
+         "groupSortMethod": "median",
+         "stratifyThreshholds": []
+        },
+        {
+         "id": "col8",
+         "desc": "number@Versions",
+         "width": 115,
+         "groupRenderer": "boxplot",
+         "summaryRenderer": "histogram",
+         "loaded": true,
+         "map": {
+          "type": "linear",
+          "domain": [
+           0,
+           1320
+          ],
+          "range": [
+           0,
+           1
+          ]
+         },
+         "colorMapping": "#9467bd",
+         "filter": null,
+         "groupSortMethod": "median",
+         "stratifyThreshholds": []
+        },
+        {
+         "id": "col9",
+         "desc": "categorical@FundingStatus",
+         "label": "Funding",                  
+         "width": 115,
+         "loaded": true,
+         "filter": null,
+         "colorMapping": null
+        },
+        {
+         "id": "col10",
+         "desc": "number@DaysSinceLastUpdate",
+         "label": "Days Since Last Update",              
+         "width": 140,
+         "groupRenderer": "boxplot",
+         "summaryRenderer": "histogram",
+         "loaded": true,
+         "map": {
+          "type": "linear",
+          "domain": [
+           35,
+           5760
+          ],
+          "range": [
+           0,
+           1
+          ]
+         },
+         "colorMapping": "#8c564b",
+         "filter": null,
+         "groupSortMethod": "median",
+         "stratifyThreshholds": []
+        }
+       ],
+       "sortCriteria": [],
+       "groupSortCriteria": [],
+       "groupColumns": []
+      }
+     ],
+     "showTopN": 10
+    }</script>
+    <script src='https://unpkg.com/lineupjs@4.0.0/build/LineUpJS.js'></script>
+    <script src='https://unpkg.com/papaparse'></script>
+    <script  src="./script.js"></script>
+</body>
+</html>
